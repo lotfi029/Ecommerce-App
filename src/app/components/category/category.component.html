@@ -1,0 +1,13 @@
+<div>
+  <div>
+    <select name="" id="" class="form-select" [(ngModel)]="selectedCatId">
+      <option value="0" selected>All</option>
+      @for (cat of categories; track cat.id) {
+      <option [value]="cat.id">{{ cat.name }}</option>
+      }
+    </select>
+  </div>
+  <div>
+    <app-product [categoryId]="selectedCatId"></app-product>
+  </div>
+</div>

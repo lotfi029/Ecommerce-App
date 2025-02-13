@@ -1,0 +1,250 @@
+{
+  "products": [
+    {
+      "catId": "1",
+      "price": 12943,
+      "id": "1",
+      "name": "Phone 100",
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "quantity": 66,
+      "status": true
+    },
+    {
+      "catId": "2",
+      "price": 11678,
+      "id": "2",
+      "name": "Phone 2",
+      "quantity": 12,
+      "status": true,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B"
+    },
+    {
+      "id": "3",
+      "name": "Phone 3",
+      "price": 8261,
+      "quantity": 30,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "3"
+    },
+    {
+      "id": "4",
+      "name": "Phone 4",
+      "price": 6428,
+      "quantity": 34,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "2"
+    },
+    {
+      "id": "5",
+      "name": "Phone 5",
+      "price": 10274,
+      "quantity": 7,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "3"
+    },
+    {
+      "id": "6",
+      "name": "Phone 6",
+      "price": 13768,
+      "quantity": 46,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "4"
+    },
+    {
+      "id": "7",
+      "name": "Phone 7",
+      "price": 10396,
+      "quantity": 86,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "1"
+    },
+    {
+      "id": "8",
+      "name": "Phone 8",
+      "price": 8141,
+      "quantity": 67,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "3"
+    },
+    {
+      "id": "9",
+      "name": "Phone 9",
+      "price": 10773,
+      "quantity": 6,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "2"
+    },
+    {
+      "id": "10",
+      "name": "lap 10",
+      "price": 9069,
+      "quantity": 21,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "4"
+    },
+    {
+      "id": "11",
+      "name": "lap 11",
+      "price": 11078,
+      "quantity": 87,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "2"
+    },
+    {
+      "id": "12",
+      "name": "Phone 12",
+      "price": 5171,
+      "quantity": 29,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "2"
+    },
+    {
+      "id": "13",
+      "name": "Phone 13",
+      "price": 10586,
+      "quantity": 15,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "1"
+    },
+    {
+      "id": "14",
+      "name": "Phone 14",
+      "price": 8181,
+      "quantity": 37,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "1"
+    },
+    {
+      "id": "15",
+      "name": "Phone 15",
+      "price": 5604,
+      "quantity": 17,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "2"
+    },
+    {
+      "id": "16",
+      "name": "Phone 16",
+      "price": 7712,
+      "quantity": 90,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "4"
+    },
+    {
+      "id": "17",
+      "name": "Phone 17",
+      "price": 8413,
+      "quantity": 18,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "4"
+    },
+    {
+      "id": "18",
+      "name": "Phone 18",
+      "price": 5856,
+      "quantity": 52,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "3"
+    },
+    {
+      "id": "19",
+      "name": "Phone 19",
+      "price": 14175,
+      "quantity": 44,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "5"
+    },
+    {
+      "id": "20",
+      "name": "Phone 20",
+      "price": 5581,
+      "quantity": 33,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true,
+      "catId": "4"
+    },
+    {
+      "id": "201",
+      "name": "The newest one",
+      "quantity": 12,
+      "price": 500000,
+      "catId": "1",
+      "status": true,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B"
+    },
+    {
+      "id": "202",
+      "name": "The Newest One",
+      "quantity": 12,
+      "price": 54000,
+      "catId": "2",
+      "status": true,
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B"
+    },
+    {
+      "id": "203",
+      "name": "the oldest one",
+      "quantity": 12,
+      "price": 23894,
+      "catId": "1",
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true
+    },
+    {
+      "id": "204",
+      "name": "fad",
+      "quantity": 3,
+      "price": 12,
+      "catId": "1",
+      "imgUrl": "https://fakeimg.pl/440x230/282828/eae0d0/?retina=1&text=Supports%20emojis!%20%F0%9F%98%8B",
+      "status": true
+    },
+    {
+      "id": "205",
+      "status": false
+    },
+    {
+      "id": "206",
+      "status": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Phone"
+    },
+    {
+      "id": "2",
+      "name": "Lap"
+    },
+    {
+      "id": "3",
+      "name": "Computer"
+    },
+    {
+      "id": "4",
+      "name": "Tablet"
+    },
+    {
+      "id": "5",
+      "name": "Type 5"
+    }
+  ]
+}

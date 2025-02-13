@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">{{productVM.category}}</div>
+        <img class="card-img-top" [src] ="productVM.imgUrl" />
+        <div class="card-body">
+            <h5 class="card-title">{{productVM.name}}</h5>
+            <p class="card-text">{{productVM.quentity}}</p>
+            <p class="card-text">{{productVM.price | currency}}</p>
+            <button class="btn btn-primary" (click)="prevProduct()">previous</button>
+            <button class="btn btn-primary" (click)="nextProduct()">Next</button>
+        </div>
+    </div>
+</div>

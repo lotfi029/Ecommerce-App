@@ -1,0 +1,68 @@
+<h1>{{ nameRef | json }}</h1>
+<form (ngSubmit)="addProduct()" #productFromRef="ngForm">
+  <div class="form-group row">
+    <label for="name" class="col-sm-2 col-form-label">Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      pattern="^[a-z]{3,15}"
+      name="name"
+      required
+      #nameRef="ngModel"
+      [(ngModel)]="newProduct.name"
+    />
+  </div>
+  <div class="form-group row">
+    <label for="quantity" class="col-sm-2 col-form-label">Quantity</label>
+    <input
+      type="number"
+      class="form-control"
+      id="quantity"
+      name="quantity"
+      [(ngModel)]="newProduct.quantity"
+      placeholder="Quantity"
+    />
+  </div>
+  <div class="form-group row">
+    <label for="price" class="col-sm-2 col-form-label">Price</label>
+    <input
+      type="number"
+      class="form-control"
+      id="price"
+      name="price"
+      placeholder="Price"
+      [(ngModel)]="newProduct.price"
+    />
+  </div>
+  <div class="form-group row">
+    <label for="category" class="col-sm-2 col-form-label">Category</label>
+
+    <select
+      class="form-select"
+      id="category"
+      name="catId"
+      [(ngModel)]="newProduct.catId"
+    >
+      @for (category of categories; track category.id) {
+      <option [value]="category.id">{{ category.name }}</option>
+      }
+    </select>
+  </div>
+  <div class="form-group row">
+    <label for="image" class="col-sm-2 col-form-label">ImageUrl</label>
+    <input
+      type="text"
+      class="form-control"
+      id="image"
+      placeholder="Image"
+      name="imgUrl"
+      [(ngModel)]="newProduct.imgUrl"
+    />
+  </div>
+  <div class="form-group row">
+    <button class="btn btn-success" [disabled]="productFromRef.invalid">
+      Add Product
+    </button>
+  </div>
+</form>

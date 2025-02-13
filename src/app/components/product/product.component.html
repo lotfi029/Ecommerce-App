@@ -1,0 +1,29 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  @for (prd of products; track prd.id) {
+  <div class="Card">
+    <img class="card-img-top" [src]="prd.imgUrl" alt="Card image cap" />
+    <div class="card-body">
+      <h5 class="card-title">{{ prd.name }}</h5>
+      <p class="card-text">{{ prd.price | currency }}</p>
+      <p class="card-text">
+        @if(!prd.status) {
+        <small class="text-danger">Out Of Stock</small>
+        } @else {
+        <small class="text-muted">{{ prd.quantity }}</small>
+        }
+      </p>
+      <div>
+        <button (click)="details(prd.id)" class="btn btn-success">
+          Details
+        </button>
+        <button routerLink="/updateproduct/{{prd.id}}" class="btn btn-success">
+          Update
+        </button>
+        <button (click)="deleteProduct(prd.id)" class="btn btn-danger">
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+  }
+</div>

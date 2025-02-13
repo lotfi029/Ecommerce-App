@@ -1,0 +1,120 @@
+<h1>{{ userRegistrationForm.value | json }}</h1>
+<form [formGroup]="userRegistrationForm" (ngSubmit)="addProduct()">
+  <div class="form-group row">
+    <label for="name">Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      name="name"
+      formControlName="name"
+    />
+    @if(name?.touched && name?.invalid) {
+    <div class="text-danger">
+      @if(name?.errors?.['required']){
+      <p>name is required</p>
+      } @if(name?.errors?.['pattern']) {
+      <p>Name must be between 3 to 10 charachters</p>
+      }
+    </div>
+    }
+  </div>
+  <div class="form-group row">
+    <label for="email">Email</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      name="email"
+      formControlName="email"
+    />
+    @if(email?.touched && email?.invalid) {
+    <div class="text-danger">
+      @if(email?.errors?.['required']){
+      <p>email is required</p>
+      } @if(email?.errors?.['email']) {
+      <p>Invalid Email</p>
+      }
+    </div>
+    }
+  </div>
+  <div class="form-group row">
+    <label for="password">Password</label>
+    <input
+      type="password"
+      class="form-control"
+      id="password"
+      name="password"
+      formControlName="password"
+    />
+    @if(password?.touched && password?.invalid) {
+    <div class="text-danger">
+      @if(password?.errors?.['required']){
+      <p>password is required</p>
+      } @else if(password?.errors?.['minlength']) {
+      <p>At least 8 charachters</p>
+      }
+    </div>
+    }
+  </div>
+  <div formGroupName="address">
+    <div class="form-group row">
+      <label for="city">City</label>
+      <input
+        type="text"
+        class="form-control"
+        id="city"
+        name="city"
+        formControlName="city"
+      />
+      @if(city?.touched && city?.invalid) {
+      <div class="text-danger">
+        @if(city?.errors?.['required']){
+        <p>City is required</p>
+        }
+      </div>
+      }
+    </div>
+    <div class="form-group row">
+      <label for="street">Street</label>
+      <input
+        type="text"
+        class="form-control"
+        id="street"
+        name="street"
+        formControlName="street"
+      />
+      @if(name?.touched && name?.invalid) {
+      <div class="text-danger">
+        @if(street?.errors?.['required']){
+        <p>Street is required</p>
+        }
+      </div>
+      }
+    </div>
+  </div>
+
+  <div formArrayName="phoneNumbers">
+    @for (item of phones.controls; track $index) {
+    <div class="form-gourp row">
+      <label for="phoneNumber">Phone Number</label>
+      <input
+        type="number"
+        class="form-control"
+        name="phoneNumber"
+        [formControlName]="$index"
+      />
+    </div>
+    }
+    <button class="btn btn-success" type="button" (click)="addphoneNumber()">
+      +
+    </button>
+  </div>
+  <button
+    class="btn btn-success"
+    type="submit"
+    [disabled]="userRegistrationForm.invalid"
+  >
+    Submit
+  </button>
+</form>

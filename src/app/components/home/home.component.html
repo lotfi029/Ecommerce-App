@@ -1,0 +1,10 @@
+<p>counter is {{counter | async}}<p>
+<button (click)="counterPlus()">Click</button>
+
+
+@for (course of courses; track course.id) {
+    <p>Id: {{course.id}}</p>
+    <p>Name: {{course.name}}</p>
+    <p>Price: {{course.price}}</p>
+    
+}
